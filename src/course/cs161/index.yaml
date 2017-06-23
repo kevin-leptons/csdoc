@@ -1,0 +1,20 @@
+id: cs161
+name: Data Structure and Algorithms
+url: http://web.stanford.edu/class/archive/cs/cs161/cs161.1168/ 
+units:
+    - Insertion sort, loop invariants, runtime analyses, asymptotic analysis
+    - Merge sort, divide and conquer
+    - Recurrence relations, maximum subarray problem
+    - Heaps
+    - Partition, median of medians algorithms, more recurrence practice
+    - Randomized algorithms, quicksort
+    - Lower bounds on comparison sorting, counting sort, stacks, queues, linked lists
+    - Binary search trees, red-black trees
+    - Hashing
+    - Graphs, depth-first search, topological sort
+    - Strongly connected components, breadth-first-search, Dijkstra's algoritm
+    - Dynamic programming
+    - Greedy algorithms, activity selection problem, knapsack problem, Floyd-Warshall algorithm
+    - Bellman-Ford algorithm, amortized analysis
+    - Minimum spanning trees
+    - Max flow

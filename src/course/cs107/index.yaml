@@ -1,0 +1,21 @@
+id: cs107
+name: Computer Organization & Systems
+url: https://web.stanford.edu/class/archive/cs/cs107/cs107.1166/syllabus.html 
+units:
+    - Welcome
+    - Transitioning to C
+    - C pointers & arrays
+    - More on pointers
+    - void*, generics, callbacks
+    - Introduce data representation of the Integer family of types
+    - More bits and bytes
+    - IEEE Floating Point
+    - Intro to AMD64, data movement
+    - Data layout and access, ALU ops
+    - Control
+    - Function call
+    - Code optimization
+    - Managing the heap
+    - Build process
+    - Memory hierarchy, locality, caching
+    - Wrap

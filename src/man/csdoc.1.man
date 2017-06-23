@@ -1,0 +1,57 @@
+.TH man 1 "{{build_date}}" "{{version}}" "csdoc man page"
+
+.SH NAME
+csdoc \- Stanford Computer Science Documents 
+
+.SH SYNOPSIS
+.B
+csdoc
+list [keyword]
+
+.B
+csdoc
+info COURSE
+
+.B
+csdoc
+open NAME
+
+.SH DESCRIPTION
+Csdoc contains Computer Science documents from Stanford University.
+It also contains tool called 
+.B
+csdoc
+to retrieve documents and open PDF document by 
+.B
+evince
+
+.B
+csdoc list
+search for document related with 
+keyword
+
+.B
+csdoc info
+show information about course
+
+.B
+csdoc open
+open document by name
+
+.SH EXAMPLES
+
+$ csdoc open cs161.001
+
+.SH FILES
+.TP 4
+/usr/share/doc/csdoc
+All of documents.
+
+.SH BUGS
+None
+
+.SH REFERENCES 
+Csdoc repository at https://github.com/kevin-leptons/csdoc.
+
+.SH AUTHORS
+Kevin Leptons <kevin.leptons@gmail.com>

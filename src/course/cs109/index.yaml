@@ -1,0 +1,29 @@
+id: cs109
+name: Introduction to Probability for Computer Scientists
+url: http://web.stanford.edu/class/cs109/schedule.html 
+units:
+    - Counting
+    - Permutations and Combinations
+    - Axioms of Probability
+    - Conditional Probability, Bayes Theorem
+    - Independence
+    - Random Variables
+    - Variance, Bernoulli and Binomial
+    - Poisson and More
+    - Continuous Random Variables
+    - Normal Distribution
+    - Joint Distributions
+    - Continuous Joint Distributions
+    - Properties of Joint Distributions
+    - Convolution and Joint Conditional
+    - Beta Distributions
+    - Great Expectations
+    - Covariance and Correlation
+    - Samples
+    - Central Theoems
+    - Parameters and MLE
+    - Maximum a Posteriori
+    - Naive Bayes
+    - Logistic Regression
+    - Towards Deep Learning
+    - Deep Learning

@@ -1,0 +1,9 @@
+Package: csdoc
+Version: {version}
+Section: base
+Priority: optional
+Architecture: all
+Depends: evince (>= 3.14.1),
+         python (>> 2.7), python (<< 3)
+Maintainer: Kevin Leptons <kevin.leptons@gmail.com>
+Description: Stanford Computer Science documents

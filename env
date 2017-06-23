@@ -1,0 +1,107 @@
+#!/bin/bash
+
+set -e
+
+# Use to create development environemnt
+#
+# AUTHOR: kevin leptons <kevin.leptons@gmail.com>
+
+# help menu
+HELP="USAGE:\n
+    $(basename $0) init     enter development environemnt
+    $(basename $0) install  install development packages
+    $(basename $0) clear    exit development environemnt
+    $(basename $0) reg      register executable file with system
+    $(basename $0) ureg     undo register executable file with system
+    $(basename $0) -h       print help menu\n"
+TMP_DIR="tmp"
+VENV_DIR="venv"
+PYTHON_EXE=$(which python3)
+
+# Initialize development environemnt
+# If any components is missing, auto create it
+# It can require privilege permission
+#
+# USAGE
+#
+# $ dev_init
+dev_init() {
+    if [ "$(which python)" != "/usr/bin/python" ]; then
+        echo "In virtual environment now, do not init virtualenv"
+        exit 1
+    fi
+
+    mkdir -vp $TMP_DIR
+
+    # install pip
+    local GETPY_URL="https://bootstrap.pypa.io/get-pip.py"
+    local GETPY="$TMP_DIR/get-py.py"
+    if [ ! -f "$GETPY" ]; then
+        wget "$GETPY_URL" -O "$GETPY"
+    fi
+    sudo python "$GETPY"
+
+    # install python virtualenv
+    sudo pip install virtualenv --upgrade
+
+    # create virtualenv
+    if [ ! -d $VENV_DIR ]; then
+        virtualenv -p $PYTHON_EXE "$VENV_DIR"
+    fi
+}
+
+# Install development packages
+#
+# USAGE
+#
+# $ dev_install
+dev_install() {
+    if [ "$(which python)" == "/usr/bin/python" ]; then
+        echo "Not in virtual environment"
+        exit 1
+    fi
+
+    # install development packages
+    pip install -r dev-requires.txt
+}
+
+# Clear virtual environment files
+#
+# USAGE
+#
+# $ dev_clear
+dev_clear() {
+    if [ "$(which python)" != "/usr/bin/python" ]; then
+        echo "In virtual environment now, do not clear virtualenv"
+        exit 1
+    fi
+
+    if [ -d "$VENV_DIR" ]; then
+        rm -r "$VENV_DIR"
+    fi
+}
+
+dev_reg() {
+    local exe_file="$(pwd)/src/cli.py"
+    local sys_exe="/usr/bin/csdoc"
+    sudo ln -s $exe_file $sys_exe
+}
+
+dev_ureg() {
+    sudo rm /usr/bin/csdoc
+}
+
+print_help() {
+    printf "$HELP"
+}
+
+# parse arguments and execute command
+case "$1" in
+    init) dev_init; exit 0;;
+    install) dev_install; exit 0;;
+    clear) dev_clear; exit 0;;
+    reg) dev_reg; exit 0;;
+    ureg) dev_ureg; exit 0;;
+    -h) print_help; exit 0;;
+    *) print_help; exit 1;;
+esac

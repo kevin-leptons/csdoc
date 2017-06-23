@@ -1,0 +1,32 @@
+id: cs106b
+name: Programming Abstractions
+url: http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1164/
+units:
+    - Welcome
+    - C++ Functions
+    - Big O, Vectors, Grids
+    - Strings and Stanford Library
+    - Stacks and Queues
+    - Sets and Maps
+    - Introduction to Recursion
+    - Fractals
+    - Recursive Backtracking 1
+    - Recursive Backtracking 2 and Exhaustive Search
+    - Sorting
+    - Memoization and Structs
+    - Classes
+    - Pointers
+    - Dynamic Allocation
+    - Linked Lists
+    - Implementing Vector
+    - Binary Heaps
+    - Trees
+    - Binary Search Trees
+    - Graphs
+    - Hashing
+    - "Graphs II: Minimum"
+    - BFS and DFS
+    - Dijkstra and A*
+    - "Esoteric Data Structures: Skip Lists and Bloom Filters"
+    - C++  Inheritance and Polymorphism
+    - Final Class

@@ -1,0 +1,32 @@
+id: cs103
+name: Mathematical Foundation of Computing
+url: http://web.stanford.edu/class/archive/cs/cs103/cs103.1164/
+units:
+    - Set Theory
+    - Direct Proofs
+    - Indirect Proofs
+    - Propositional Logic
+    - First-Order Logic, Part I
+    - First-Order Logic, Part II
+    - Binary Relations, Part I
+    - Binary Relations, Part II
+    - Functions
+    - Cardinality
+    - Graphs, Part I
+    - Graphs, Part II
+    - Induction, Part I
+    - Induction, Part II
+    - Finite Automata, Part I
+    - Finite Automata, Part II
+    - Finite Automata, Part III
+    - Regular Expressions
+    - Nonregular Languages
+    - Context-Free Grammars
+    - Turing Machines, Part I
+    - Turing Machines, Part II
+    - Turing Machines, Part III
+    - Unsolvable Problems, Part I
+    - Unsolvable Problems, Part II
+    - Complexity Theory, Part I
+    - Complexity Theory, Part II
+    - The Big Picture

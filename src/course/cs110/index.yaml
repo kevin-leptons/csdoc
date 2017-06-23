@@ -1,0 +1,24 @@
+id: cs110
+name: Principles of Computer Systems
+url: http://web.stanford.edu/class/archive/cs/cs110/cs110.1176/spring-2017/
+units:
+    - Introductions, Course Syllabus
+    - Filesystems, APIs, and System Calls
+    - More on Filesystems APIs
+    - Filesystems Wrap, Introduction to Multiprocessing
+    - More Multiprocessing
+    - Process Control, execvp, Pipes
+    - Pipes, subprocess, and Signals
+    - Synchronization, Virtual Memory, and Scheduling
+    - Multiprocessing Wrap, Introduction to Threads
+    - Threading, Races, C to C++ Transition
+    - Philosophers, Deadlock, and Permission Slips
+    - Condition Variables, Semaphores, reader-writer, and Myth Busters
+    - myth-busters and ice-cream-parlors
+    - Introduction to Networking
+    - Servers, Clients, HTTP, System Calls
+    - web-get, System Calls, Server Architectures
+    - Networking Wrap For Real, MapReduce
+    - Principles of System Design
+    - Nonblocking I/O
+    - Nonblocking I/O and Event-driven programming
