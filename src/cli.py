@@ -5,6 +5,7 @@ SYNOPSIS
 
     csdoc list [docname]
     csdoc open docname
+    csdoc map
     csdoc -v, --version
     csdoc -h, --help
 
@@ -49,6 +50,7 @@ def cli_help():
     exe_name = basename(sys.argv[0])
 
     print('USAGE')
+    print('    map                  Show map to learn')
     print('    list [course]        List courses or units of course')
     print('    open course.unit     Open document')
     print('    -v, --version        Print version')
@@ -70,6 +72,14 @@ def limit_str(str, lim):
         return str[:lim - 3] + '...'
     else:
         return str
+
+
+def cli_map():
+    print('Core     cs106b => cs107 => cs110 => cs103 => cs109 => cs161')
+    print('AI       math19 => math20 => math21 => phys41 => phys43 => cs221')
+
+    print()
+    print('http://csmajor.stanford.edu/Requirements.shtml')
 
 
 def cli_list(id=None):
@@ -148,7 +158,9 @@ def cli():
         return
 
     # commands
-    if sys.argv[1] == 'list':
+    if sys.argv[1] == 'map':
+        cli_map()
+    elif sys.argv[1] == 'list':
         if len(sys.argv) == 2:
             cli_list()
         else:

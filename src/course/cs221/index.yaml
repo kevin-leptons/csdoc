@@ -1,0 +1,27 @@
+id: cs221
+name: "Artificial Intelligence: Principles and Techniques"
+url: http://web.stanford.edu/class/cs221/2016/
+units:
+    - Overview
+    - Machine Learning I
+    - Machine Learning II
+    - Machine Learning III
+    - Search I
+    - Search II
+    - MDPs I
+    - MDPs II
+    - Games I
+    - Games II
+    - CSPs I
+    - CSPs II
+    - Bayesian networks I
+    - Bayesian networks II
+    - Bayesian networks III
+    - Logic I
+    - Logic II
+    - Deep Leaning
+    - Conclusion
+
+
+
+

@@ -13,11 +13,12 @@ June, 2017
 - CS103 - Mathematical Foundations of Computing
 - CS109 - Introduction to Probability for Computer Scientists
 - CS161 - Data Structure and Algorithms
+- CS221 - Artificial Intelligence: Principles and Techniques
 
 # USAGE
 
 ```bash
-# because size of documents is big ~0.5GB, no package will be build
+# because size of documents is big, no package will be build
 # instead that, an executable file will be link to system
 # and you can use csdoc anywhere
 
