@@ -22,6 +22,9 @@ June, 2017
 # instead that, an executable file will be link to system
 # and you can use csdoc anywhere
 
+# dependency
+apt-get install git python3 evince
+
 # source
 git clone https://github.com/kevin-leptons/csdoc.git
 cd csdoc
