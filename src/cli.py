@@ -142,7 +142,7 @@ def cli_open(docname):
     if not isfile(pdf_doc):
         print('Missing unit document: %s' % (pdf_doc))
         sys.exit(1)
-    Popen(['evince', pdf_doc], stdout=DEVNULL, stderr=DEVNULL) 
+    Popen(['xdg-open', pdf_doc], stdout=DEVNULL, stderr=DEVNULL) 
     con.close()
 
 
