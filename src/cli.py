@@ -75,6 +75,7 @@ def limit_str(str, lim):
 
 
 def cli_map():
+    print('OS       cs140 => cs240')
     print('Core     cs106b => cs107 => cs110')
     print('         cs103 => cs109 => cs161')
     print('AI       math19 => math20 => math21 => phys41 => phys43 => cs221')

@@ -1,0 +1,21 @@
+id: cs140
+name: Operating Systems
+url: http://www.scs.stanford.edu/17wi-cs140/
+units:
+        - Introduction
+        - Processes & Threads
+        - Concurrency
+        - Scheduling
+        - Virtual memory HW
+        - Virtual memory OS
+        - Synchronization 1
+        - Synchronization 2
+        - Memory allocation
+        - Linking
+        - I/O and disks
+        - File systems
+        - Advanced file systems
+        - Networking
+        - Protection
+        - Security
+        - Virtual machine

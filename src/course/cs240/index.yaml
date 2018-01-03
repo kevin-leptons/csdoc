@@ -1,0 +1,22 @@
+id: cs240
+name: Advanced Topics in Operating Systems
+url: http://www.scs.stanford.edu/17sp-cs240/
+units:
+        - Reflections on Trusting Trust
+        - Eraser - A Dynamic Data Race
+        - Scheduler Activations
+        - Design and Implement of SUN NFS
+        - Speculator
+        - Read-Log-Update
+        - Hoard - A Scalable Memory Allocator
+        - The Scalable Commutavity Rule
+        - MapReduce
+        - A Tour of Go
+        - Exokernel
+        - Singularity
+        - Capsicum
+        - Memory Resource Management in ESX
+        - Software and Hardware of x86 Virtualization
+        - Dune
+        - Eliminating Receive Livelock
+        - IX
