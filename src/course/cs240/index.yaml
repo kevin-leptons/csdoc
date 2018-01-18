@@ -9,7 +9,7 @@ units:
         - Speculator
         - Read-Log-Update
         - Hoard - A Scalable Memory Allocator
-        - The Scalable Commutavity Rule
+        - The Scalable Commutativity Rule
         - MapReduce
         - A Tour of Go
         - Exokernel
