@@ -2,18 +2,6 @@ id: book
 name: Book
 url: None
 units:
-<<<<<<< HEAD
-    - The Art of Computer Programming Vol 1
-    - The Art of Computer Programming Vol 2
-    - The Art of Computer Programming Vol 3
-    - Subquadratic Algorithms for 3SUM
-    - Linux Programming Interfaces
-    - Operating System Concepts 9th Edition
-    - Programming Principles and Practice Using C++
-    - The C++ Programming Language 4th
-    - Stanford Computer Science courses summary
-    - ISO IEC 9899:2011 - C Programming Lanuage
-=======
         - The Art of Computer Programming Vol 1
         - The Art of Computer Programming Vol 2
         - The Art of Computer Programming Vol 3
@@ -24,9 +12,5 @@ units:
         - The C++ Programming Language 4th
         - Stanford Computer Science courses summary
         - ISO IEC 9899:2011 - C Programming Lanuage
-        - Programming in C 
-<<<<<<< HEAD
+        - Expert C Programming 
         - Modern C
->>>>>>> 7efbe51... remove a book which too big size
-=======
->>>>>>> ceb3959... remove book which is too big size
