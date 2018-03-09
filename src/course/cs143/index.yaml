@@ -1,0 +1,22 @@
+id: cs143
+name: Compilers
+url: http://web.stanford.edu/class/cs143/
+units:
+        - Course overview
+        - Cool - The course project
+        - Lexical Analysis
+        - Finite Automata
+        - Introduction to parsing
+        - Syntax-Directed translation
+        - Top-Down parsing & bottom-up parsing I
+        - Bottom-Up parsing II
+        - Semantic analysis & type checking
+        - Type checking II
+        - Run-time environments
+        - Code generation
+        - Operational semantic
+        - Intermediate code & local optimization
+        - Global optimization
+        - Register allocation
+        - Automatic memory management
+        - Language security
