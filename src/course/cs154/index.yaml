@@ -1,0 +1,23 @@
+id: cs154
+name: Automata and Complexity Theory
+url: http://people.csail.mit.edu/rrw/cs154-2016/index.html
+units:
+        - Introduction and course summary; Finite automata, DFAs and NFAs
+        - Review of finite automata (cont), equivalence of DFAs and NFAs,
+          regular expressions
+        - Equivalence of automata and regular expressions; Proving languages 
+          are not regular
+        - Minimizing DFAs
+        - The Myhill-Nerode Theorem
+        - Streaming Algorithms and Communication Complexity
+        - More on Communication Complexity; Turing Machines
+        - Church-Turing Thesis, Decidability, Recognizability
+        - Diagonalization, Undecidability, and Reductions
+        - More on Reductions, Rice's Theorem
+        - Oracles, Self-Reference, Recursion Theorem
+        - Foundations of Mathematics, Kolmogorov Complexity
+        - Finish up K-Complexity, Time Complexity, Time Hierachy Theorem
+        - P and NP
+        - Polynomial-Time Reductions; The Cook-Levin Theorem; NP-completeness
+        - More NP-complete problems, coNP
+        - Oracle Turing machines, P^NP, Space complexity, Course Summary
